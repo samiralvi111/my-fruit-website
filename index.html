@@ -18,10 +18,10 @@
 </head>
 <body>
   <header>
-    <nav class="flex justify-between items-center max-w-screen-xl m-auto px-8 md:px-16 lg:px-24 py-5 my-10
-     rounded-lg bg-[#F85559]">
+    <nav class="flex justify-between items-center max-w-screen-lg m-auto px-8 md:px-16 lg:px-24 py-5 my-10
+     rounded-full bg-[#F85559] ">
       <div>
-        <ul class="flex gap-4">
+        <ul class="flex gap-4 rounded-lg">
           <li><a href=""></a>Home</li>
           <li><a href=""></a>About Us</li>
           <li><a href=""></a>Shop</li>
@@ -35,7 +35,12 @@
         </div>
       </div>
       <div>
-        <form class="border-solid border-current" action=""><input type="search" placeholder="Search here"></form>
+        <form class="border-solid border-current" action="">
+          <div class="relative">
+            <input class="rounded-full p-2" type="search" placeholder="Search here">
+            <i class="fa-solid fa-magnifying-glass absolute right-7 bottom-3"></i>
+          </div>
+          </form>
       </div>
     </nav>
 <!-- slider section start here..................................... -->
